@@ -1,13 +1,13 @@
 /* Utilites */
 
-:root {
+/* :root {
   --main-title-color: #ffffff;
   --main-text-color: #757575;
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
-}
+} */
 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -42,10 +42,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 /* ------------------------HEADER------------------------ */
 
-.header {
+/* .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
@@ -126,7 +126,7 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: #2196f3;
-}
+} */
 
 /* ------------------------CONTACTS------------------------ */
 
@@ -190,7 +190,7 @@ body {
 }
 /* ------------------------HERO------------------------ */
 
-.hero {
+/* .hero {
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -254,7 +254,7 @@ body {
 .hero__btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ------------------------ADVENTAGES------------------------ */
 
@@ -365,7 +365,7 @@ body {
 
 /* ------------------------TEAM------------------------ */
 
-.team {
+/* .team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -379,9 +379,9 @@ body {
   letter-spacing: 0.03em;
 
   margin-bottom: 50px;
-}
+} */
 
-.team-list {
+/* .team-list {
   display: flex;
 }
 
@@ -419,9 +419,9 @@ body {
   color: var(--main-text-color);
 
   margin-bottom: 16px;
-}
+} */
 
-.team-social-list {
+/* .team-social-list {
   display: flex;
   justify-content: center;
   width: 206px;
@@ -459,10 +459,10 @@ body {
 .team-social__link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
-}
+} */
 /* ------------------------CLIENTS------------------------ */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
   margin-left: auto;
@@ -517,11 +517,11 @@ body {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* ------------------------FOOTER------------------------ */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -543,11 +543,11 @@ body {
 
   display: block;
   margin-bottom: 20px;
-}
+} */
 
 /* ------------------------CONTACT------------------------ */
 
-.footer-contact__maps {
+/* .footer-contact__maps {
   font-style: normal;
   width: 231px;
   font-size: 14px;
@@ -578,11 +578,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
 
   display: block;
-}
+} */
 
 /* ------------------------WILL JOIN------------------------ */
 
-.will-join {
+/* .will-join {
   margin-left: 70px;
 }
 
@@ -630,11 +630,11 @@ body {
 .will-join-social__link:hover,
 .will-join-social__link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* ------------------------MAILLING------------------------ */
 
-.mailing {
+/* .mailing {
   display: flex;
   position: relative;
   width: 570px;
@@ -707,11 +707,21 @@ body {
   height: 24px;
   margin-left: 10px;
   fill: #ffffff;
-}
+} */
 
 /* ------------------------HIDDEN------------------------ */
 
-.modal {
+/* .backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  transition: opacity 250ms, visibility 250ms;
+} */
+
+/* .modal {
   position: absolute;
   width: 528px;
   min-height: 581px;
@@ -742,7 +752,6 @@ body {
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
   top: 8px;
   right: 8px;
   cursor: pointer;
@@ -754,11 +763,11 @@ body {
 
 .btn-close-modal:hover {
   fill: #2196f3;
-}
+} */
 
 /* ------------------------Feedback------------------------ */
 
-.feedback-text {
+/* .feedback-text {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -869,11 +878,11 @@ body {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
 /* ------------------------Checkbox License------------------------ */
 
-.feedback-license__label {
+/* .feedback-license__label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -960,13 +969,13 @@ body {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-}
+} */
 
 /* ------------------------PORFOLIO.HTML------------------------ */
 
 /* ------------------------BUTTON FILTERS------------------------ */
 
-.filters {
+/* .filters {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -1012,10 +1021,10 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 /* ------------------------LINK GALLERY------------------------ */
 
-.card-gallery-list {
+/* .card-gallery-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
@@ -1098,14 +1107,4 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
-
-.backdrop {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-
-  transition: opacity 250ms, visibility 250ms;
-}
+} */
